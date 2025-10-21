@@ -3,6 +3,7 @@
 import React from 'react';
 import { ChevronRight, Hexagon } from 'lucide-react';
 import Button from '@/components/ui/Button';
+import Logo from '@/components/ui/Logo';
 
 export default function Hero() {
   return (
@@ -12,7 +13,7 @@ export default function Hero() {
           {/* Left Content */}
           <div>
             <div className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-              🐝 Construyendo el futuro juntos
+              <Logo size='lg'/>
             </div>
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
               Como una colmena,
