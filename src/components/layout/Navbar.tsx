@@ -3,12 +3,14 @@
 import React, { useState } from 'react';
 import { Menu, X, Hexagon } from 'lucide-react';
 import Button from '@/components/ui/Button';
+import Logo from '@/components/ui/Logo';
 
 const navLinks = [
   { name: 'Servicios', href: '#servicios' },
   { name: 'Proyectos', href: '#proyectos' },
   { name: 'Blog', href: '#blog' },
   { name: 'Comunidad', href: '#comunidad' },
+  { name: 'Contactanos', href: '#contacto'},
 ];
 
 export default function Navbar() {
@@ -20,15 +22,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="relative">
-            <Hexagon className="w-8 h-8 text-amber-600 fill-amber-100" />
-            <span className="absolute inset-0 flex items-center justify-center text-lg">
-              🐝
-            </span>
-            </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-amber-600 to-orange-600 bg-clip-text text-transparent">
-              Devhive
-            </span>
+            <Logo size='sm'/>
           </div>
           
           {/* Desktop Navigation */}

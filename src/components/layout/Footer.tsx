@@ -1,5 +1,6 @@
 import React from 'react';
 import { Hexagon, Github, Linkedin, Twitter } from 'lucide-react';
+import Logo from '@/components/ui/Logo';
 
 const footerLinks = {
   services: [
@@ -22,8 +23,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <Hexagon className="w-8 h-8 text-amber-500 fill-amber-500/20" />
-              <span className="text-2xl font-bold">Devhive</span>
+              <Logo size='sm'/>
             </div>
             <p className="text-gray-400">
               Construyendo el futuro del desarrollo colaborativo
