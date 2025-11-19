@@ -1,5 +1,5 @@
 import React from 'react';
-import { Hexagon, Github, Linkedin, Twitter } from 'lucide-react';
+import { Github, Linkedin, Twitter } from 'lucide-react';
 import Logo from '@/components/ui/Logo';
 
 const footerLinks = {

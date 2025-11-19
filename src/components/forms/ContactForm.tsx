@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import { Send, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
-import Button from '@/components/ui/Button';
 
 interface FormData {
   name: string;
